@@ -1,0 +1,280 @@
+
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:  #2de0d1;;
+    direction: rtl;
+}
+
+.SS{
+    text-align: center;
+    border: #2a038b solid 20px;
+    border-radius: 10px;
+    background-color: rgb(212, 108, 11); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; padding: 30px; margin: 1px;
+}
+
+.cnx
+{
+    
+    margin: auto;
+    overflow: hidden;
+}
+
+.cnx #syd h3
+{
+    color: rgb(248, 11, 11);
+    width: 25%;
+    padding: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+li strong
+{
+    color: #2a038b;
+    text-align: center;
+    padding-right: 0px;
+    margin-right: 70px;
+    
+}
+li em {
+    
+    margin-right: 5px;
+}
+
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-color: #353637;
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #32a0c2 5px solid;
+}
+header a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px;
+}
+header #brand{
+    float: right;
+}
+header #brand h1
+{
+    margin: 0;
+    color: #32a0c2;
+}
+header nav
+{
+    float: left;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: #32a0c2;
+    font-weight: bold;
+}
+header a:hover
+{
+    color: blue;
+    font-weight: bold;
+}
+#showcase
+{
+    min-height: 400px;
+    background: url("../image/IMG_7721.JPG") no-repeat center;
+    background-size: cover;
+}
+#newsletter
+{
+    padding: 50px;
+    color: #ffffff;
+    background: #353637;
+}
+#newsletter h1
+{
+    float: right;
+}
+#newsletter form
+{
+    float: left;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button
+{
+    height: 38px;
+    background: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #353637;
+}
+#boxes
+{
+    margin-top: 15px;
+    background-color: #353637;
+}
+#boxes .seyid
+{
+    float: right;
+    text-align: center;
+    width: 28%;
+    padding: 10px;
+}
+#boxes .syd 
+{
+    float: right;
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    
+} 
+#boxes .syd button
+{
+    height: 48px;
+    background: yellow;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: blueviolet;
+}
+
+
+.mod {
+    margin: 27px auto 0;
+    position: relative;
+    width: 590px;
+    height: 50px;
+    background-color: #158a06;
+    border-radius: 8px;
+    font-size: 0;
+}
+.mod a
+{
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.mod .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+
+a:nth-child(1){
+    width: 100px;
+}
+a:nth-child(2){
+    width: 110px;
+}
+a:nth-child(3){
+    width: 100px;
+}
+a:nth-child(4){
+    width: 160px;
+}
+a:nth-child(5){
+    width: 120px;
+}
+
+.mod .start-home, a:nth-child(1):hover~.animation{
+    width: 100px;
+    right: 0;
+    background-color: #0c7a36;
+}
+
+.mod .start-blog,a:nth-child(2):hover~.animation{
+    width: 110px;
+    right: 100px;
+    background-color: #0975e0;
+}
+
+.mod .start-about,a:nth-child(3):hover~.animation{
+    width: 100px;
+    right: 210px;
+    background-color: #c5400c;
+}
+.mod .start-p,a:nth-child(4):hover~.animation{
+    width: 160px;
+    right: 310px;
+    background-color: #a50a69;
+}
+.mod .start-contact,a:nth-child(5):hover~.animation{
+    width: 120px;
+    right: 470px;
+    background-color: #2705c0;
+}
+
+span {
+    color: #b40e72;
+}
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #f4f4f4;
+    background-color: #32a0c2;
+    text-align: center;
+    font-weight: bol;
+    font-size: 20px;
+}
+@media(max-width:768px)
+{
+    header #brand,
+    header nav,
+    header li,
+    #newsletter form,
+    #boxes .seyid
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    #newsletter .button
+    {
+        display:block;
+        width:100%;
+    }
+    #newsletter form input[type="email"]
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}

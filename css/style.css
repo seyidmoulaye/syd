@@ -3,9 +3,35 @@ body
     font-family: sans-serif;
     padding: 0;
     margin: 0;
-    background-color:  #f4f4f4;;
+    background-color:  #ee1515;;
     direction: rtl;
 }
+#menu-list {
+    display: block;
+  }
+  
+#menu-list li {
+    display: block;
+  }
+  
+#menu-list li a {
+    display: block;
+    padding: 10px;
+  }
+  
+#menu-btn {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+#menu-btn:hover {
+    background-color: #666;
+  }
+
 .container
 {
     width: 80%;
@@ -46,6 +72,8 @@ header #brand h1
 }
 header nav
 {
+
+    display: block;
     float: left;
     margin-top: 10px;
 }
@@ -62,7 +90,7 @@ header a:hover
 #showcase
 {
     min-height: 400px;
-    background: url("../image/IMG_7721.JPG") no-repeat center;
+    background: url("../image/photo_2023-04-03_22-18-55.jpg") no-repeat center;
     background-size: cover;
 }
 #newsletter
@@ -96,19 +124,54 @@ header a:hover
 }
 #boxes
 {
-    margin-top: 20px;
+    width: auto;
+    margin-top: 0;
+    background-color: #158a06;
+    
+    
 }
-#boxes .seyid
+ .seyid
+{
+    text-align: center;
+    float: right;
+    padding: 100px 0 30px 0;
+
+}
+img {
+    float: right;
+    text-align: center;
+    margin: 10px 100px 100px 10px;
+    width: 180px;
+    border-radius: 30px 0 30px 0;
+    border: solid 10px rgb(159, 25, 172);
+    /* transform: rotate(10deg); */
+    height: 180px;
+}
+
+.sid 
 {
     float: right;
     text-align: center;
-    width: 30%;
+    width: 80%;
     padding: 10px;
+    
+} 
+.syd
+{
+    width: 80%;
+    height: 48px;
+    color: blue;
+    font-weight: bold;
+    background: yellow;
+    padding-left: 40px;
+    padding-right: 40px;
+    
 }
+
 footer
 {
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 80px;
     color: #f4f4f4;
     background-color: #32a0c2;
     text-align: center;
